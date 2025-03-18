@@ -88,8 +88,10 @@ body {
 }
 
 .button-container {
-    width: 300px;
+    display: flex;
+    gap: 10px;
     justify-content: center;
+    margin-top: 20px;
 }
 
 /* Estilos de entrada de texto */
@@ -159,4 +161,25 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+/* Botón de reiniciar juego */
+.button-reset {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color: #e55720;
+    font-size: 16px;
+    border: 2px solid #000;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.button-reset:hover {
+    background-color: #d34c1a;
 }
